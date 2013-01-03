@@ -8,5 +8,11 @@ chrome.runtime.onInstalled.addListener(function() {
 });
 
 chrome.contextMenus.onClicked.addListener(function(info, tab) {
-    console.log("click");
+    var text = info.selectionText;
+
+    if (!text) {
+        alert(chrome.i18n.getMessage("no_text_selected"));
+    } else {
+        alert(text);
+    }
 });

@@ -10,5 +10,9 @@
     "context_menu_title": {
         "message": "Wordy",
         "description": "The text for the context menu action."
+    },
+    "no_text_selected": {
+        "message": "No text was selected.",
+        "description": "Message shown when the context menu action was invoked when no text was selected."
     }
 }
