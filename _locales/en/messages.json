@@ -1,0 +1,10 @@
+{
+    "extension_name": {
+        "message": "Wordy",
+        "description": "Name of the extension."
+    },
+    "extension_description": {
+        "message": "A simple word and character counter.",
+        "description": "Description of the extension."
+    }
+}
