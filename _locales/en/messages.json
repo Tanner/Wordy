@@ -14,5 +14,20 @@
     "no_text_selected": {
         "message": "No text was selected.",
         "description": "Message shown when the context menu action was invoked when no text was selected."
+    },
+    "text_statistics": {
+        "message": "The text contains:\n\n$num_chars$ characters\n\n$num_non_space_chars$ non-space characters\n\n$num_words$ words",
+        "description": "Message detailing the number of characters, non-space characters, and the number of words.",
+        "placeholders": {
+            "num_chars": {
+                "content": "$1"
+            },
+            "num_non_space_chars": {
+                "content": "$2"
+            },
+            "num_words": {
+                "content": "$3"
+            }
+        }
     }
 }
