@@ -6,5 +6,9 @@
     "extension_description": {
         "message": "A simple word and character counter.",
         "description": "Description of the extension."
+    },
+    "context_menu_title": {
+        "message": "Wordy",
+        "description": "The text for the context menu action."
     }
 }
